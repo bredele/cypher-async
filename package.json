@@ -1,0 +1,29 @@
+{
+  "name": "cypher-async",
+  "version": "1.0.0",
+  "description": "Neo4j cypher transactions managed asynchronously",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/cypher-async.git"
+  },
+  "keywords": [
+    "neo4j",
+    "cypher",
+    "async",
+    "promise",
+    "stream"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/cypher-async/issues"
+  },
+  "homepage": "https://github.com/bredele/cypher-async#readme"
+}
