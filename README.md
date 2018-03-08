@@ -1,6 +1,5 @@
 # Cypher async
 
-  [![Build Status](https://travis-ci.org/bredele/cypher-async.svg?branch=master)](https://travis-ci.org/bredele/cypher-async)
   [![NPM](https://img.shields.io/npm/v/cypher-async.svg)](https://www.npmjs.com/package/cypher-async)
   [![Downloads](https://img.shields.io/npm/dm/cypher-async.svg)](http://npm-stat.com/charts.html?package=cypher-async)
   [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/guidelines.md)
