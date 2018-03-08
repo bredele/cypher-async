@@ -38,6 +38,19 @@ function promise (driver) {
 
 
 /**
+ * Run cypher queries as streams.
+ *
+ * @param {Object} driver
+ * @return {Function} tagged template
+ * @api public
+ */
+
+function stream (driver) {
+
+}
+
+
+/**
  * Transform template data into object.
  *
  * @param {Array} data
