@@ -58,7 +58,7 @@ function stream (driver) {
  * @api private
  */
 
-function parameters (data) {
+function parameters (data = []) {
   return data.reduce((result, item, index) => {
     result[index] = item
     return result
