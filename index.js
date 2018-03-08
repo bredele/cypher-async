@@ -25,14 +25,14 @@ module.exports = driver => {
  */
 
 function promise (driver) {
-  return (chunks, data) => {
+  return (chunks, ...data) => {
     const session = driver.session()
     const params = parameters(data)
-    return session.writeTransaction(tx => tx.run(query(chunks, Object.keys(params)), params))
+    return session.writeTransaction(tx => tx.run(query(chunks, Object.keys(params).map(key => '$' + key)), params))
       .then(result => {
         session.close()
         return result
-      }, err => console.error(err))
+      })
   }
 }
 
