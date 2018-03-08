@@ -10,8 +10,9 @@ const query = require('array-compose')
  */
 
 module.exports = driver => {
-  const promise = promise(driver)
-  promise.stream = stream(driver)
+  const async = promise(driver)
+  async.stream = stream(driver)
+  return async
 }
 
 
