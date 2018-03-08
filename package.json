@@ -1,6 +1,6 @@
 {
   "name": "cypher-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Neo4j cypher transactions managed asynchronously",
   "main": "index.js",
   "repository": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/bredele/cypher-async#readme",
   "dependencies": {
-    "array-compare": "^2.0.0"
+    "array-compose": "^1.0.0"
   }
 }
